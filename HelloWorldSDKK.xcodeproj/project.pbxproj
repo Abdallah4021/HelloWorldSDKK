@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		B236D9EF2419376C000C676E /* HelloWorldSDKK.h in Headers */ = {isa = PBXBuildFile; fileRef = B236D9ED2419376C000C676E /* HelloWorldSDKK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B236D9F624193E92000C676E /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D9F524193E92000C676E /* HelloWorld.swift */; };
+		B236D9FE241940DD000C676E /* HelloWorldSDKKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D9FD241940DD000C676E /* HelloWorldSDKKTests.swift */; };
+		B236DA00241940DD000C676E /* HelloWorldSDKK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B236D9EA2419376C000C676E /* HelloWorldSDKK.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B236DA01241940DD000C676E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B236D9E12419376C000C676E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B236D9E92419376C000C676E;
+			remoteInfo = HelloWorldSDKK;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B236D9EA2419376C000C676E /* HelloWorldSDKK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloWorldSDKK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B236D9ED2419376C000C676E /* HelloWorldSDKK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldSDKK.h; sourceTree = "<group>"; };
 		B236D9EE2419376C000C676E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B236D9F524193E92000C676E /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		B236D9FB241940DD000C676E /* HelloWorldSDKKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldSDKKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236D9FD241940DD000C676E /* HelloWorldSDKKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldSDKKTests.swift; sourceTree = "<group>"; };
+		B236D9FF241940DD000C676E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +41,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B236D9F8241940DD000C676E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B236DA00241940DD000C676E /* HelloWorldSDKK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				B236D9EC2419376C000C676E /* HelloWorldSDKK */,
+				B236D9FC241940DD000C676E /* HelloWorldSDKKTests */,
 				B236D9EB2419376C000C676E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				B236D9EA2419376C000C676E /* HelloWorldSDKK.framework */,
+				B236D9FB241940DD000C676E /* HelloWorldSDKKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +75,18 @@
 			children = (
 				B236D9ED2419376C000C676E /* HelloWorldSDKK.h */,
 				B236D9EE2419376C000C676E /* Info.plist */,
+				B236D9F524193E92000C676E /* HelloWorld.swift */,
 			);
 			path = HelloWorldSDKK;
+			sourceTree = "<group>";
+		};
+		B236D9FC241940DD000C676E /* HelloWorldSDKKTests */ = {
+			isa = PBXGroup;
+			children = (
+				B236D9FD241940DD000C676E /* HelloWorldSDKKTests.swift */,
+				B236D9FF241940DD000C676E /* Info.plist */,
+			);
+			path = HelloWorldSDKKTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +121,39 @@
 			productReference = B236D9EA2419376C000C676E /* HelloWorldSDKK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B236D9FA241940DD000C676E /* HelloWorldSDKKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B236DA03241940DD000C676E /* Build configuration list for PBXNativeTarget "HelloWorldSDKKTests" */;
+			buildPhases = (
+				B236D9F7241940DD000C676E /* Sources */,
+				B236D9F8241940DD000C676E /* Frameworks */,
+				B236D9F9241940DD000C676E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B236DA02241940DD000C676E /* PBXTargetDependency */,
+			);
+			name = HelloWorldSDKKTests;
+			productName = HelloWorldSDKKTests;
+			productReference = B236D9FB241940DD000C676E /* HelloWorldSDKKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B236D9E12419376C000C676E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Abdallah;
 				TargetAttributes = {
 					B236D9E92419376C000C676E = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					B236D9FA241940DD000C676E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -112,12 +172,20 @@
 			projectRoot = "";
 			targets = (
 				B236D9E92419376C000C676E /* HelloWorldSDKK */,
+				B236D9FA241940DD000C676E /* HelloWorldSDKKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B236D9E82419376C000C676E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B236D9F9241940DD000C676E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,10 +199,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B236D9F624193E92000C676E /* HelloWorld.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B236D9F7241940DD000C676E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B236D9FE241940DD000C676E /* HelloWorldSDKKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B236DA02241940DD000C676E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B236D9E92419376C000C676E /* HelloWorldSDKK */;
+			targetProxy = B236DA01241940DD000C676E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B236D9F02419376C000C676E /* Debug */ = {
@@ -260,6 +345,32 @@
 		B236D9F32419376C000C676E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HelloWorldSDKK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.HelloWorldSDKK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B236D9F42419376C000C676E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -278,26 +389,37 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B236D9F42419376C000C676E /* Release */ = {
+		B236DA04241940DD000C676E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HelloWorldSDKK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = HelloWorldSDKKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.HelloWorldSDKK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.HelloWorldSDKKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B236DA05241940DD000C676E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWorldSDKKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.HelloWorldSDKKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +442,15 @@
 			buildConfigurations = (
 				B236D9F32419376C000C676E /* Debug */,
 				B236D9F42419376C000C676E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B236DA03241940DD000C676E /* Build configuration list for PBXNativeTarget "HelloWorldSDKKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B236DA04241940DD000C676E /* Debug */,
+				B236DA05241940DD000C676E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
