@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "HelloWorldSDK"
-  s.version       = "0.0.1"
+  s.version       = "0.1.0"
   s.summary       = "iOS SDK for Hello World"
   s.description   = "iOS SDK for Hello World, including example app"
   s.homepage      = "https://github.com/abdallah4021/"
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
     :git => "https://github.com/Abdallah4021/HelloWorldSDKK.git",
     :tag => "#{s.version}"
   }
-  s.source_files        = "HelloWorldSDK/**/*.{h,m,swift}"
-  s.public_header_files = "HelloWorldSDK/**/*.h"
+  s.source_files        = "HelloWorldSDKK/**/*.{h,m,swift}"
+  s.public_header_files = "HelloWorldSDKK/**/*.h"
 end
