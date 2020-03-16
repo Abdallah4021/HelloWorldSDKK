@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,22 @@
 		B236DA14241A28CC000C676E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B236DA12241A28CC000C676E /* Main.storyboard */; };
 		B236DA16241A28CE000C676E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B236DA15241A28CE000C676E /* Assets.xcassets */; };
 		B236DA19241A28CE000C676E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B236DA17241A28CE000C676E /* LaunchScreen.storyboard */; };
+		B2DCD4FE241F8643004CC22D /* AuthUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4EC241F8642004CC22D /* AuthUserResponse.swift */; };
+		B2DCD4FF241F8643004CC22D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DCD4ED241F8643004CC22D /* Media.xcassets */; };
+		B2DCD500241F8643004CC22D /* GamiphyBotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4EF241F8643004CC22D /* GamiphyBotButton.swift */; };
+		B2DCD501241F8643004CC22D /* GamiphyBotOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F0241F8643004CC22D /* GamiphyBotOptions.swift */; };
+		B2DCD502241F8643004CC22D /* GamiphyReferral.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F1241F8643004CC22D /* GamiphyReferral.swift */; };
+		B2DCD503241F8643004CC22D /* GamiphyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F2241F8643004CC22D /* GamiphyUser.swift */; };
+		B2DCD504241F8643004CC22D /* BotStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F3241F8643004CC22D /* BotStyle.swift */; };
+		B2DCD505241F8643004CC22D /* BotLauncherStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F4241F8643004CC22D /* BotLauncherStyle.swift */; };
+		B2DCD506241F8643004CC22D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F5241F8643004CC22D /* NetworkManager.swift */; };
+		B2DCD507241F8643004CC22D /* GamiphyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F6241F8643004CC22D /* GamiphyWebViewController.swift */; };
+		B2DCD508241F8643004CC22D /* UIButton+UrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F8241F8643004CC22D /* UIButton+UrlImage.swift */; };
+		B2DCD509241F8643004CC22D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4F9241F8643004CC22D /* UIColor+Hex.swift */; };
+		B2DCD50A241F8643004CC22D /* String+Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4FA241F8643004CC22D /* String+Encryption.swift */; };
+		B2DCD50B241F8643004CC22D /* Gamiphy.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DCD4FB241F8643004CC22D /* Gamiphy.h */; };
+		B2DCD50C241F8643004CC22D /* GamiphySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4FC241F8643004CC22D /* GamiphySDK.swift */; };
+		B2DCD50D241F8643004CC22D /* BotConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCD4FD241F8643004CC22D /* BotConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,22 @@
 		B236DA15241A28CE000C676E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B236DA18241A28CE000C676E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B236DA1A241A28CE000C676E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DCD4EC241F8642004CC22D /* AuthUserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUserResponse.swift; sourceTree = "<group>"; };
+		B2DCD4ED241F8643004CC22D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		B2DCD4EF241F8643004CC22D /* GamiphyBotButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamiphyBotButton.swift; sourceTree = "<group>"; };
+		B2DCD4F0241F8643004CC22D /* GamiphyBotOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamiphyBotOptions.swift; sourceTree = "<group>"; };
+		B2DCD4F1241F8643004CC22D /* GamiphyReferral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamiphyReferral.swift; sourceTree = "<group>"; };
+		B2DCD4F2241F8643004CC22D /* GamiphyUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamiphyUser.swift; sourceTree = "<group>"; };
+		B2DCD4F3241F8643004CC22D /* BotStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotStyle.swift; sourceTree = "<group>"; };
+		B2DCD4F4241F8643004CC22D /* BotLauncherStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotLauncherStyle.swift; sourceTree = "<group>"; };
+		B2DCD4F5241F8643004CC22D /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B2DCD4F6241F8643004CC22D /* GamiphyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamiphyWebViewController.swift; sourceTree = "<group>"; };
+		B2DCD4F8241F8643004CC22D /* UIButton+UrlImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+UrlImage.swift"; sourceTree = "<group>"; };
+		B2DCD4F9241F8643004CC22D /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		B2DCD4FA241F8643004CC22D /* String+Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Encryption.swift"; sourceTree = "<group>"; };
+		B2DCD4FB241F8643004CC22D /* Gamiphy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gamiphy.h; sourceTree = "<group>"; };
+		B2DCD4FC241F8643004CC22D /* GamiphySDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamiphySDK.swift; sourceTree = "<group>"; };
+		B2DCD4FD241F8643004CC22D /* BotConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotConfiguration.swift; sourceTree = "<group>"; };
 		EE7DC23390AA4DE409302E01 /* Pods_HelloWorldExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F79E817D1573998DB013F3 /* Pods-HelloWorldExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldExampleApp/Pods-HelloWorldExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +124,6 @@
 				F7F79E817D1573998DB013F3 /* Pods-HelloWorldExampleApp.debug.xcconfig */,
 				6F1EE0D19190931B8DD8D59E /* Pods-HelloWorldExampleApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +155,15 @@
 				B236D9ED2419376C000C676E /* HelloWorldSDKK.h */,
 				B236D9EE2419376C000C676E /* Info.plist */,
 				B236D9F524193E92000C676E /* HelloWorld.swift */,
+				B2DCD4EC241F8642004CC22D /* AuthUserResponse.swift */,
+				B2DCD4FD241F8643004CC22D /* BotConfiguration.swift */,
+				B2DCD4F7241F8643004CC22D /* Extensions */,
+				B2DCD4FB241F8643004CC22D /* Gamiphy.h */,
+				B2DCD4FC241F8643004CC22D /* GamiphySDK.swift */,
+				B2DCD4F6241F8643004CC22D /* GamiphyWebViewController.swift */,
+				B2DCD4ED241F8643004CC22D /* Media.xcassets */,
+				B2DCD4EE241F8643004CC22D /* Models */,
+				B2DCD4F5241F8643004CC22D /* NetworkManager.swift */,
 			);
 			path = HelloWorldSDKK;
 			sourceTree = "<group>";
@@ -151,6 +191,29 @@
 			path = HelloWorldExampleApp;
 			sourceTree = "<group>";
 		};
+		B2DCD4EE241F8643004CC22D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2DCD4EF241F8643004CC22D /* GamiphyBotButton.swift */,
+				B2DCD4F0241F8643004CC22D /* GamiphyBotOptions.swift */,
+				B2DCD4F1241F8643004CC22D /* GamiphyReferral.swift */,
+				B2DCD4F2241F8643004CC22D /* GamiphyUser.swift */,
+				B2DCD4F3241F8643004CC22D /* BotStyle.swift */,
+				B2DCD4F4241F8643004CC22D /* BotLauncherStyle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2DCD4F7241F8643004CC22D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2DCD4F8241F8643004CC22D /* UIButton+UrlImage.swift */,
+				B2DCD4F9241F8643004CC22D /* UIColor+Hex.swift */,
+				B2DCD4FA241F8643004CC22D /* String+Encryption.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -158,6 +221,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DCD50B241F8643004CC22D /* Gamiphy.h in Headers */,
 				B236D9EF2419376C000C676E /* HelloWorldSDKK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DCD4FF241F8643004CC22D /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +401,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DCD506241F8643004CC22D /* NetworkManager.swift in Sources */,
+				B2DCD50D241F8643004CC22D /* BotConfiguration.swift in Sources */,
+				B2DCD503241F8643004CC22D /* GamiphyUser.swift in Sources */,
+				B2DCD505241F8643004CC22D /* BotLauncherStyle.swift in Sources */,
+				B2DCD500241F8643004CC22D /* GamiphyBotButton.swift in Sources */,
+				B2DCD50C241F8643004CC22D /* GamiphySDK.swift in Sources */,
+				B2DCD504241F8643004CC22D /* BotStyle.swift in Sources */,
 				B236D9F624193E92000C676E /* HelloWorld.swift in Sources */,
+				B2DCD50A241F8643004CC22D /* String+Encryption.swift in Sources */,
+				B2DCD501241F8643004CC22D /* GamiphyBotOptions.swift in Sources */,
+				B2DCD508241F8643004CC22D /* UIButton+UrlImage.swift in Sources */,
+				B2DCD502241F8643004CC22D /* GamiphyReferral.swift in Sources */,
+				B2DCD509241F8643004CC22D /* UIColor+Hex.swift in Sources */,
+				B2DCD4FE241F8643004CC22D /* AuthUserResponse.swift in Sources */,
+				B2DCD507241F8643004CC22D /* GamiphyWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
