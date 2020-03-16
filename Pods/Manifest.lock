@@ -1,5 +1,5 @@
 PODS:
-  - HelloWorldSDK (0.1.0)
+  - HelloWorldSDK (1.0.4)
 
 DEPENDENCIES:
   - HelloWorldSDK (from `.`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  HelloWorldSDK: 4514374ede2a777c8a46018b4c2d15293975ea7e
+  HelloWorldSDK: 9be95b65b71230106081d063d9a615f2076bd3d1
 
 PODFILE CHECKSUM: da178c62266364a2aeddd7ee94ffa84510ae899f
 

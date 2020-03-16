@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Gamiphy.h"
 #import "HelloWorldSDKK.h"
 
 FOUNDATION_EXPORT double HelloWorldSDKVersionNumber;
