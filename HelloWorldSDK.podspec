@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name          = "HelloWorldSDK"
-  s.version       = "1.0.5"
+  s.version       = "1.0.6"
   s.summary       = "iOS SDK for Hello World"
   s.description   = "iOS SDK for Hello World, including example app"
   s.homepage      = "https://github.com/Abdallah4021/HelloWorldSDKK.git"
   s.license       = "MIT"
   s.author        = "abdallah"
-  s.platform      = :ios, "9.0"
+  s.platform      = :ios, "10.0"
   s.swift_version = "4.2"
   s.source        = {
     :git => "https://github.com/Abdallah4021/HelloWorldSDKK.git",
